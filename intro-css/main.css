@@ -1,0 +1,24 @@
+/* En CSS podemos poner directamente las etiquetas de HTML, pero esto modificara todas las etiquetas */
+
+
+h1{
+    color: cadetblue;
+}
+
+/* Con los selectores podemos modificar solo las etiquetas que nosotros queramos. */
+/* Con . accdemos a las clase y con # a los id */
+
+#selector1{
+    color:cornflowerblue ;
+}
+
+.selector2{
+    color: coral;
+}
+
+/* Podemos decir que solo cierta etiqueta que contenga esa clase se le aplique el estilo */
+/* Con * seleccionamos todas las etiquetas que contengan esa clase. */
+
+* .warning{
+    color: red;
+}

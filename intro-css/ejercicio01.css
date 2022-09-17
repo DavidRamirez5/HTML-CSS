@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+html{
+    background-color: #eee;
+}
+
+.encabezado{
+    text-align: center;
+    font-family:'Roboto Slab', serif ;
+}
+
+.lista{
+    border: 1px  solid;
+    border-radius: 3px;
+    width: 500px;
+    margin: 5px;
+    box-shadow: 4px 4px 6px rgba(0,0,0, 0.2);
+}
+
+#elemento-1{
+    color: rgb(221, 25, 25);
+   
+}
